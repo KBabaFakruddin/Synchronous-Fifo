@@ -28,7 +28,7 @@ The FIFO uses an extra MSB bit on the read/write pointers (`PTR_WIDTH = $clog2(F
 <img width="804" height="786" alt="schematic  fifo" src="https://github.com/user-attachments/assets/6175db32-6b90-423b-9efa-8748efa8ddc0" />
 
 ](schematic fifo.png)
-*Synthesized gate-level representation generated via Yosys.
+*Synthesized gate-level representation generated via DigitalJS.
 ## Verification & Simulation Results
 
 The testbench (`tb/sfifo_tb.v`) exercises the following test cases:
