@@ -25,7 +25,8 @@ The FIFO uses an extra MSB bit on the read/write pointers (`PTR_WIDTH = $clog2(F
 
 ### RTL Schematic
 ![
-<img width="964" height="696" alt="Waveform fifo" src="https://github.com/user-attachments/assets/0278049e-5500-43a9-9954-3e5350efac66" />
+<img width="804" height="786" alt="schematic  fifo" src="https://github.com/user-attachments/assets/6175db32-6b90-423b-9efa-8748efa8ddc0" />
+
 ](schematic fifo.png)
 *Synthesized gate-level representation generated via Yosys.
 ## Verification & Simulation Results
